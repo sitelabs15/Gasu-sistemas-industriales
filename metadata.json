@@ -1,0 +1,6 @@
+{
+  "name": "GASU Sistemas Industriales | Ingeniería y Automatización en Puebla",
+  "description": "Soluciones de ingeniería eléctrica, automatización, mantenimiento, robótica y soporte técnico industrial en Puebla, México.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" width="100%" height="100%" fill="none">
+  <!-- GASU ROBÓTICA - SUBMARCA OFICIAL VECTORIAL -->
+  <g id="gasu-robotica-isotipo" transform="translate(10, 15)">
+    <!-- Cuadrante Grande Único: Azul GASU -->
+    <rect x="0" y="0" width="80" height="80" rx="10" fill="#003A70" />
+    <!-- Brazo Robótico Blanco a escala grande -->
+    <g fill="#FFFFFF" transform="translate(4, 4) scale(2)">
+      <!-- Base del robot -->
+      <path d="M7 32 L20 32 L22 28 L11 28 Z" />
+      <!-- Articulación de la base -->
+      <circle cx="16" cy="27" r="3.5" />
+      <!-- Brazo principal -->
+      <path d="M14.5 25.5 L24 13 L26.5 15 L17 27.5 Z" />
+      <!-- Articulación codo -->
+      <circle cx="25" cy="14" r="3" />
+      <!-- Actuador / Cilindro -->
+      <rect x="15" y="19" width="3" height="8" rx="1.5" transform="rotate(-38 16.5 23)" fill="#FFFFFF" />
+      <!-- Antebrazo y muñeca -->
+      <path d="M25 14 L32 14 L32 11 L25 11 Z" />
+      <!-- Herramienta / Gripper -->
+      <circle cx="33" cy="12.5" r="1.5" />
+      <rect x="34" y="11" width="1.5" height="3" />
+    </g>
+  </g>
+
+  <!-- TIPOGRAFÍA GASU ROBÓTICA -->
+  <g id="gasu-robotica-text" transform="translate(106, 15)">
+    <!-- Letra G (Azul GASU) -->
+    <path d="M 52 23 C 52 16 48 11 37 11 C 23 11 12 19 12 34 C 12 50 23 57 38 57 C 49 57 54 52 54 45 L 54 36 L 34 36 L 34 43 L 45 43 L 45 48 C 45 49 42 50 38 50 C 28 50 21 45 21 34 C 21 24 28 18 37 18 C 44 18 45 23 45 23 Z" fill="#003A70" />
+
+    <!-- Letras ASU (Gris industrial) -->
+    <path d="M 62 57 L 76 11 L 91 11 L 106 57 L 95 57 L 91 44 L 75 44 L 71 57 Z M 78 35 L 88 35 L 83 20 Z" fill="#606166" />
+    <!-- Trazo conector -->
+    <path d="M 95 57 L 117 57" stroke="#606166" stroke-width="6" stroke-linecap="square" />
+    <!-- Letra S -->
+    <path d="M 117 20 C 119 14 126 11 137 11 C 149 11 155 16 155 24 C 155 32 147 36 137 38 C 126 40 121 42 121 47 C 121 51 126 52 133 52 C 140 52 145 49 147 45 L 156 49 C 152 54 144 58 133 58 C 120 58 112 52 112 44 C 112 35 120 31 130 29 C 140 27 145 25 145 21 C 145 17 141 16 136 16 C 129 16 125 18 123 22 Z" fill="#606166" />
+    <!-- Letra U -->
+    <path d="M 166 11 L 175 11 L 175 40 C 175 49 180 52 188 52 C 196 52 201 49 201 40 L 201 11 L 210 11 L 210 40 C 210 54 200 58 188 58 C 176 58 166 54 166 40 Z" fill="#606166" />
+
+    <!-- Línea doble separadora -->
+    <line x1="12" y1="62" x2="295" y2="62" stroke="#003A70" stroke-width="1.5" />
+    <line x1="12" y1="66" x2="295" y2="66" stroke="#003A70" stroke-width="1.5" />
+
+    <!-- ROBÓTICA -->
+    <text x="12" y="86" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="20" font-weight="800" letter-spacing="0.25em" fill="#003A70">ROBÓTICA</text>
+  </g>
+</svg>
